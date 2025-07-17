@@ -1,14 +1,20 @@
+/* Ensure body doesn't stretch container */
+body {
+  margin: 0;
+  padding: 0;
+}
 
-/* Your CSS Code here. *//* Styling the main element */
+/* Main element with class and ID */
 main.accio#job {
   width: 150px;
   height: 150px;
   background-color: #000000;
+  display: block; /* ensures sizing */
 }
 
-/* Styling the paragraph inside the main element */
+/* Paragraph styling */
 .hello-accio {
-  color: #ffffff;
+  color: #ffffff;               /* white text */
   margin-left: 32px;
   padding: 10px;
 }
