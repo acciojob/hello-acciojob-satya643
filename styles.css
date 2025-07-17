@@ -1,34 +1,13 @@
-/* Resetting defaults */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* Styling the main element */
-main.accio#job {
+/* Style for main element */
+#job {
   width: 150px;
   height: 150px;
   background-color: #000000;
 }
 
-/* Styling the paragraph */
+/* Style for paragraph element */
 .hello-accio {
   color: #ffffff;
   margin-left: 32px;
   padding: 10px;
-}
-
-/* Responsive support for smaller screens */
-@media (max-width: 600px) {
-  main.accio#job {
-    width: 100px;
-    height: 100px;
-  }
-
-  .hello-accio {
-    margin-left: 16px;
-    padding: 8px;
-    font-size: 14px;
-  }
 }
